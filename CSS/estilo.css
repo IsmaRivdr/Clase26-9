@@ -1,0 +1,55 @@
+/*selector{
+ estilo
+}
+tipos de selectores
+1-Etiqueta por ejemplo h1, p 
+2-Clase .+nombre, parte de una etiqueta
+3-id#+nombre id que tiene una etiqueta*/
+
+body {
+    background-color: pink;
+}
+.fondoverde{
+    background-color: green;
+}
+h2{
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#tituloprincipal{
+background-color:rgb(120,255,9) ;
+    width: 400px;
+    height: 50px;
+    display: inline-block;
+}
+button{
+    background-color:blueviolet ;
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 150;
+}
+#botongris{
+  background-color: gray;  
+}
+.vector{
+  width: 300px;
+}
+.texto2{
+    height: 40 vh;
+    width: 25%;
+}.bordeazul{
+ border-color: blue;
+ border-width: 2px;
+ border-style: dotted;
+}
+#textounico{
+    background-image:-moz-element();
+}
+ul{
+    background-color: chocolate;
+    width: 500px;
+}
+li{
+    background-color: red;
+    width: 50%;
+}
